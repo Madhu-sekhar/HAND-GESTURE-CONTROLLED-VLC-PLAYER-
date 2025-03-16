@@ -1,3 +1,39 @@
 dataset link
 
 https://www.kaggle.com/datasets/gti-upm/leapgestrecog
+
+Overview
+This project introduces a gesture-based control system for VLC Media Player, eliminating the need for physical input devices like a keyboard or mouse. Using computer vision techniques, the system recognizes static hand gestures captured via a webcam and maps them to media player actions such as play, pause, mute, unmute, volume up/down, forward, and rewind.
+
+Key Features
+
+Hands-free media control using static hand gestures.
+Real-time gesture recognition through webcam input.
+Computer vision-based hand tracking for accurate detection.
+Seamless integration with VLC Media Player for intuitive interaction.
+High recognition accuracy (97.10%), ensuring reliable performance.
+
+Technology Stack
+
+Programming Language: Python
+Libraries & Frameworks: OpenCV, Keras, TensorFlow
+Deep Learning Model: Convolutional Neural Network (CNN)
+
+Implementation Steps
+
+Image Acquisition: Capturing hand gestures using a webcam.
+Preprocessing: Extracting hand contours and segmenting gestures.
+Model Training: Using CNN to classify hand gestures.
+Gesture Mapping: Assigning recognized gestures to VLC media actions.
+Execution: Running real-time gesture recognition to control VLC Player.
+
+Results
+
+Achieved 97.10% accuracy in gesture recognition.
+Successfully mapped hand gestures to 8 media player actions for smooth interaction.
+Tested on various lighting conditions to ensure robustness.
+
+Future Enhancements
+Support for dynamic gestures to enable more complex commands.
+Improved background adaptability for better real-world usage.
+Multi-hand gesture recognition for enhanced control features.
